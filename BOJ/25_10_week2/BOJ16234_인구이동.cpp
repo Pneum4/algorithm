@@ -67,7 +67,7 @@ int main() {
   int answer = 0;
   while (true) {
     // visited 0으로 초기화
-    for (auto &row : visited) fill(row.begin(), row.end(), 0);
+    for (auto& row : visited) fill(row.begin(), row.end(), 0);
 
     int id = 1, changeCnt = 0;
     for (int i = 0; i < N; ++i) {
