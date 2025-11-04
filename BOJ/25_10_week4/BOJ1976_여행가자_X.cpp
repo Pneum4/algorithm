@@ -10,6 +10,16 @@ using namespace std;
 
 플로이드 워셜로 풀긴했는데
 유니온 파인드가 더 최적임
+
+1. 디버그)
+tc
+2
+2
+0 0
+0 0
+1 1
+일때 YES가 나와야됨
+따라서 n->n 은 모두 true로 바꿔줘야함
 */
 
 int main() {
@@ -26,6 +36,7 @@ int main() {
       int in;
       cin >> in;
       linkedMap[i][j] = (in ? true : false);
+      if (i == j) linkedMap[i][j] = true;
     }
   }
 
