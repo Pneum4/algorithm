@@ -5,6 +5,11 @@
 #include <vector>
 using namespace std;
 
+/*
+시작점이 여러개이고, 한 지점까지의 최단거리르 구하려면
+edge를 뒤집고, 그 지점에서 다익스트라를 구하면 된다.
+*/
+
 struct node {
   int v;
   int d;
