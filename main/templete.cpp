@@ -9,6 +9,5 @@ int main() {
   cin.tie(nullptr);
   freopen("input.txt", "r", stdin);
 
-
   return 0;
 }
